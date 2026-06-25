@@ -17,8 +17,8 @@ extension Compass.Cardinal {
             case .south: 2
             case .west: 3
             }
-        // rank is always in 0..<4, so construction never fails.
-        return try! Cyclic.Group.Static<4>.Element(Ordinal(rank))
+        // rank is always in 0..<4 (exhaustive switch), so the element is in-bounds by construction.
+        return Cyclic.Group.Static<4>.Element(__unchecked: Ordinal(rank))
     }
 
     /// The cardinal direction corresponding to a Z/4Z element.

@@ -1,8 +1,7 @@
 // Compass.Cardinal+Cyclic Tests.swift
 
-import Testing
-
 import Compass_Cyclic_Primitives
+import Testing
 
 @Suite
 struct `Compass.Cardinal Cyclic projection` {

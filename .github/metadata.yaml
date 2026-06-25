@@ -1,0 +1,10 @@
+# .github/metadata.yaml
+description: "Cyclic-group projection of compass directions for Swift — bridges Cardinal directions to the cyclic group of order four."
+topics:
+  - primitives
+  - compass
+  - cyclic
+  - geometry
+homepage: "https://swift-institute.org"
+readme:
+  family: E
